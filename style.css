@@ -1,0 +1,129 @@
+body{
+	background-color: #f7f7f7;
+}
+
+
+#welcome{
+	text-align: center;
+	color: #700319;
+	margin-top: 80px;
+}
+
+
+img{
+	margin-top: -30px;
+	text-align: center;
+}
+
+
+.btnStart{
+	color: #700319;
+	background-color: white;
+	height: 50px;
+	width: 200px;
+	border-radius: 10px;
+	margin-top: 20px;
+	
+	font-style: bold;
+	font-size: 20px;
+
+}
+
+
+
+
+/* quiz.html page css background color */
+
+.quizBG{
+	background-color: #F4A460;			
+}
+
+
+/* question count */
+
+#testStatus{
+	text-align: center;
+	color: 	#808000;
+	margin-top: 100px;
+	margin-left: -700px;
+}
+
+
+/* block of question */
+
+#test{
+	
+	background-color: #F4A460;
+}
+
+
+/* question display */
+
+#queStyle{
+	margin-left: 500px;
+	color: #000080;
+	margin-top:10px;
+	color: #000080;
+	
+}
+
+
+/* options display */
+
+.optStyle{
+	 
+	font-size: 20px; 
+	font-weight: bold;
+	line-height: 220%;
+	margin-left: 500px;
+	color: #000080;
+	background-color: #F4A460;
+	
+
+}
+
+input[type=unchecked]{
+	height: 20px;
+	width: 20px;
+}
+
+/* button display  */
+
+#btn{
+	background-color: #008CBA;
+	border-radius: 10px;
+	color: #000080;
+	font-weight: bold;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	cursor: pointer;
+	margin-top: 25px;
+	margin-left: -650px;
+	border-color: green;
+	text-align: center;;
+
+}
+
+#btn:hover{
+
+    background-color: #4CAF50; /* Green */
+    color: white;
+   
+}
+
+#fail{
+	word-spacing: 10px; 
+	color: red;
+	margin-left:-400px;
+}
+
+#pass{
+	word-spacing: 15px; 
+	color:yellow;
+	margin-left:-400px;
+	margin-top:50px;
+}
+
+
+
